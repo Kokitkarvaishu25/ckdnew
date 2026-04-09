@@ -1,0 +1,7 @@
+# UI and Styling Guidelines
+
+- **Icons**: Strictly use the `lucide-react` library for all icons across the project. 
+  - NEVER use emojis as icons.
+  - DO NOT use raw inline SVG elements in components. If a custom shape is needed, make sure to verify standard React props are used (e.g., `strokeLinejoin` instead of `strokeLinelinejoin`) and place it in a dedicated SVG component file.
+- **Theme**: Stick to a minimalistic black, white, and subtle grays theme (`#fafafa`, `#e5e5e5`, `#f5f5f5`). Avoid bright multi-colors unless specifically requested.
+- **Components**: Always ensure hydration safety by either utilizing standard `useEffect` hooks for browser-only data, or handling `window` checks correctly. Keep dashboard views clean with lots of whitespace.
