@@ -1,0 +1,11 @@
+node_modules/
+.env
+prisma/dev.db
+prisma/dev.db-journal
+npm-debug.log*
+dist/
+build/
+coverage/
+*.log
+*.tsbuildinfo
+src/generated/prisma/
